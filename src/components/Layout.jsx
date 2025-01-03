@@ -17,7 +17,8 @@ export default function Layout(props) {
     const footer = (
         <footer>
             <p><span className ='text-gradient'>Caffiend</span> was made by <a href='https://yash-kemkar-web-portfolio.netlify.app/' target='_blank' >Yash Kemkar</a><br/> 
-            using the <a href='https://www.fantacss.smoljames.com' target = '_blank'>FantaCSS</a> design library.
+            using the <a href='https://www.fantacss.smoljames.com' target = '_blank'>FantaCSS</a> design library.<br/>
+            Check out the project on <a target='_blank' href='https://github.com/yashkemkar/caffiend'>Github</a>!
             </p>
         </footer>
     )
