@@ -8,7 +8,7 @@ import History from "./components/History"
 function App() {
 
   // Creating fake authentication state for the purposes of development
-  const isAuthenticated = false
+  const isAuthenticated = true
 
   const authenticatedContent = (
     <>
