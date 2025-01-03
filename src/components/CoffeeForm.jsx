@@ -37,7 +37,7 @@ export default function CoffeeForm() {
                 <button onClick={() => {
                     setShowCoffeeTypes(true)
 
-                    {/*It's not actually needed for the functionality to work, but without it there is a bug where another button is shown as "selected" as well as the other button. So we have to reset the state to false. */ }
+                    {/*It's not actually needed for the functionality to work, but without it there is a bug where another button is shown as "selected" as well as the other button. I have to reset the state to false. */ }
                     setSelectedCoffee(false)
                 }}
                     className={'button-card' + (showCoffeeTypes ? ' coffee-button-selected' : ' ')}>
